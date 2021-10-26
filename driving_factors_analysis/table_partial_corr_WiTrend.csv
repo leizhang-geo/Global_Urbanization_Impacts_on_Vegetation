@@ -12,12 +12,12 @@ wi_trend,UG trend,Tropical,0.19958,0.1199,gray
 wi_trend,UI trend,Tropical,0.57705,0,red
 wi_trend,Pop trend,Tropical,-0.34018,0.00024,red
 wi_trend,Tair trend,Temperate,-0.15446,0.02519,orange
-wi_trend,Pre trend,Temperate,0.00028,0.99683,gray
+wi_trend,Pre trend,Temperate,0.01228,0.88983,gray
 wi_trend,UHI trend,Temperate,-0.16654,0.0157,orange
 wi_trend,UG trend,Temperate,-0.0319,0.64579,gray
 wi_trend,UI trend,Temperate,0.58417,0,red
 wi_trend,Pop trend,Temperate,-0.13633,0.02841,orange
-wi_trend,Tair trend,Cold,0.11741,0.02667,orange
+wi_trend,Tair trend,Cold,0.14741,0.02667,orange
 wi_trend,Pre trend,Cold,0.08239,0.81223,gray
 wi_trend,UHI trend,Cold,-0.07187,0.94883,gray
 wi_trend,UG trend,Cold,-0.12525,0.78248,gray
