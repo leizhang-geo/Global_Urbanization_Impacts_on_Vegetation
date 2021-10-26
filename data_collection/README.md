@@ -1,0 +1,6 @@
+## This folder contains codes for collecting data sets from Google Earth Engine (GEE).
+
+- [**1_generate_urban_boundaries.js**](https://github.com/zlxy9892/Global_Urbanization_Impacts_on_Vegetation/blob/main/data_collection/1_generate_urban_boundaries.js): The GEE code for generate the urban boundaries with their adjacent rural areas (using buffer calculation).
+- [**2_extract_VI_and_UI.js**](https://github.com/zlxy9892/Global_Urbanization_Impacts_on_Vegetation/blob/main/data_collection/2_extract_VI_and_UI.js): The GEE code for extracting the vegetation index (EVI) and urbanization intensity (as represented by the impervious surface coverage) within the urban boundaries.
+- [**3_extract_related_climatic_factors.js**](https://github.com/zlxy9892/Global_Urbanization_Impacts_on_Vegetation/blob/main/data_collection/3_extract_related_climatic_factors.js): The GEE code for extracting the climatic factors (including air temperature and precipitation) within the urban boundaries.
+- [**4_extract_related_anthropogenic_factors.js**](https://github.com/zlxy9892/Global_Urbanization_Impacts_on_Vegetation/blob/main/data_collection/4_extract_related_anthropogenic_factors.js): The GEE code for extracting the anthropogenic factors (including human-induced urban heat island intensity, urban greenness, mean of urban intensity and population density) within the urban boundaries.
