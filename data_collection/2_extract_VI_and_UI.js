@@ -1,8 +1,3 @@
-// __author__ = "Lei Zhang"
-// __license__ = "MIT License"
-// __version__ = "1.0"
-// __email__ = "zhanglei@smail.nju.edu.cn"
-
 // Define the time period of the data extraction (taking the year of 2017 (2016-2018) as an example)
 var year = 2017;
 var time_1 = year-1 + '-01-01';

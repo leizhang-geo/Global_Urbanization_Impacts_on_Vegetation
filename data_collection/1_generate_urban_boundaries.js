@@ -1,8 +1,3 @@
-// __author__ = "Lei Zhang"
-// __license__ = "MIT License"
-// __version__ = "1.0"
-// __email__ = "zhanglei@smail.nju.edu.cn"
-
 // Get global urban boundary data from Earth Engine asset
 var gub = ee.FeatureCollection("users/frank/GUB_Global_2018_final");
 var min_areaSize = 100;

@@ -1,8 +1,3 @@
-// __author__ = "Lei Zhang"
-// __license__ = "MIT License"
-// __version__ = "1.0"
-// __email__ = "zhanglei@smail.nju.edu.cn"
-
 // Define the time period
 var year = 2017;
 var time_span = 1;
