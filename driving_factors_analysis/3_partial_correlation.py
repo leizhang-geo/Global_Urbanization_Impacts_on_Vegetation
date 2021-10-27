@@ -19,7 +19,6 @@ def bootstrap_partial_corr(df, x_names, x_name, y_name, try_times=1000, rand_see
     for i in range(try_times):
         rand_idx_list = np.random.choice(len(df), len(df), replace=True)
         df_rand = df.iloc[rand_idx_list].reset_index(drop=True)
-        # res = pg.partial_corr(data=df_rand, x=x_name, y=y_name, method='pearson').round(5)
         res = pg.partial_corr(data=df_rand, x=x_name, y=y_name, covar=covar, method='pearson').round(6)
         r_value = res['r'][0]
         p_value = res['p-val'][0]
