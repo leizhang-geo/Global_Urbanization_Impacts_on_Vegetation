@@ -8,7 +8,7 @@ print(time_1 + '   ' + time_2);
 var city_bous_all = ee.FeatureCollection("users/frank/GUB_Global_2018_final_buf");
 
 var maskQA = function(image) {
-  return image.updateMask(image.select("SummaryQA").lte(1));
+  return image.updateMask(image.select("SummaryQA").lte(1).gt(-1));
 };
 
 var dataset = ee.ImageCollection('MODIS/006/MOD13A1')

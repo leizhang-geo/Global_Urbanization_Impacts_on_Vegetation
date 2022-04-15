@@ -5,7 +5,7 @@ var urban_boundaries = gub.filter(ee.Filter.gt('area', min_areaSize));
 
 // Calculate the urban size and set the value to the property of each feature
 urban_boundaries = urban_boundaries.map(function (feature) {
-  feature = ee.Feature(feature.geometry().simplify({'maxError': 1000}));  // simplify polygons for speedup calculation
+  feature = ee.Feature(feature.geometry().simplify({'maxError': 100}));  // simplify polygons for speedup calculation
   return feature.set({'urban_size': ee.Number(feature.area().divide(1000*1000))});
 });
 print(urban_boundaries);

@@ -1,5 +1,5 @@
 # Global Urbanization-induced Impacts on Vegetation Growth
-This repository contains the code used for the analysis in the paper "Vegetation growth enhancement in global urban environments is jointly controlled by climatic and anthropogenic factors"
+This repository contains the code used for the analysis in the paper "Direct and indirect impacts of urbanization on vegetation growth across the world’s cities" (under review)
 
 ## Requirement
 - Python3
