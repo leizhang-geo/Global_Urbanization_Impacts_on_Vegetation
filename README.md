@@ -1,5 +1,5 @@
 # Global Urbanization-induced Impacts on Vegetation Growth
-This repository contains the code used for the analysis in the paper "Direct and indirect impacts of urbanization on vegetation growth across the world’s cities".
+This repository contains the code used for the analysis in the paper "Zhang et al. Direct and indirect impacts of urbanization on vegetation growth across the world’s cities".
 
 ## Requirement
 - Python3
