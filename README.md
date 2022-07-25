@@ -23,4 +23,4 @@ This repository contains the code used for the analysis in the paper:
 
 For questions and more details of our study please contact the author: Lei Zhang 张磊 (lei.zhang.geo@outlook.com)
 
-Lei Zhang's [Homepage](https://zlxy9892.github.io/)
+Lei Zhang's [Homepage](https://leizhang-geo.github.io/)
